@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Appcohol</string>
+    <string name="title_activity_inicio">Inicio</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Menu</string>
+
+    <string-array name="spiner_personas">
+        <item>1</item>
+        <item>1-2</item>
+        <item>2-4</item>
+        <item>+4</item>
+    </string-array>
+
+    <string-array name="spiner_categoria">
+        <item>Suave</item>
+        <item>Medio</item>
+        <item>Fuerte</item>
+    </string-array>
+
+    <string-array name="spiner_cantidad">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string name="access_token">pk.eyJ1IjoiY2hyaXN0aWFuYXlhbGEiLCJhIjoiY2l6OGFhdGVyMDBvaDJxbW5jcXJmNTZhYiJ9.C7A7lW9mmcT8kWCnbO2hhg</string>
+
+</resources>

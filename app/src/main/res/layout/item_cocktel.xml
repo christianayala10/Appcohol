@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/layout_blanco_redondeado"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tv_inicio_item_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cocktel"
+        android:textColor="@color/negro"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_inicio_item_personas"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_item_personas" />
+
+        <TextView
+            android:id="@+id/tv_inicio_item_personas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="2-4"
+            android:textColor="@color/gris"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_inicio_item_precio"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_item_precio" />
+
+        <TextView
+            android:id="@+id/tv_inicio_item_precio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="17,5"
+            android:textColor="@color/gris"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_inicio_item_calorias"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_item_calorias" />
+
+        <TextView
+            android:id="@+id/tv_inicio_item_calorias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="3210"
+            android:textColor="@color/gris"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_inicio_item_calificacion"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_item_calificacion" />
+
+        <TextView
+            android:id="@+id/tv_inicio_item_calificacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="5"
+            android:textColor="@color/gris"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

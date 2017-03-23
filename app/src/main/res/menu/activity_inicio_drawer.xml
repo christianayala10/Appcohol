@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/nav_perfil"
+            android:icon="@drawable/ic_menu_perfil"
+            android:title="Perfil" />
+        <item
+            android:id="@+id/nav_eliminar"
+            android:icon="@drawable/ic_menu_eliminar"
+            android:title="Eliminar cuenta" />
+        <item
+            android:id="@+id/nav_cocket"
+            android:icon="@drawable/ic_menu_cocktel"
+            android:title="Añadir cocket" />
+        <item
+            android:id="@+id/nav_random"
+            android:icon="@drawable/ic_menu_random"
+            android:title="Cocktel aleatorio" />
+
+    </group>
+
+    <item android:title="Ordenar por">
+        <menu>
+            <item
+                android:id="@+id/nav_calificacion"
+                android:icon="@drawable/ic_menu_calificacion"
+                android:title="Calificacion" />
+            <item
+                android:id="@+id/nav_precio"
+                android:icon="@drawable/ic_menu_precio"
+                android:title="Precio" />
+            <item
+                android:id="@+id/nav_calorias"
+                android:icon="@drawable/ic_menu_calorias"
+                android:title="Calorias" />
+        </menu>
+    </item>
+
+</menu>
